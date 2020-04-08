@@ -56,3 +56,9 @@ Given an integer array arr, count element x such that x + 1 is also in arr. If t
 Input: [1,2,3]\
 Output:2\
 Explanation: 1 and 2 are counted cause 2 and 3 are in arr
+### Day Eight: Middle Of A Linked List
+Given a non-empty, singly linked list with head node head, return a middle node of linked list. If there are two middle nodes, return the second middle node.
+#### Example:
+Input: [1,2,3,4,5,6]\
+Output: Node 4 from this list (Serialization: [4,5,6])\
+Explanation: Since the list has two middle nodes with values 3 and 4, we return the second one.
