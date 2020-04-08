@@ -50,7 +50,7 @@ Given an array of strings, group anagrams together.
 #### Example:
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"]\
 Output:[["ate","eat","tea"], ["nat","tan"], ["bat"]]
-### Day Seven: Counting Numbers
+### Day Seven: Counting Elements
 Given an integer array arr, count element x such that x + 1 is also in arr. If there're duplicates in arr, count them seperately.
 #### Example:
 Input: [1,2,3]\
