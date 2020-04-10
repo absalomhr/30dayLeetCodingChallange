@@ -62,3 +62,12 @@ Given a non-empty, singly linked list with head node head, return a middle node 
 Input: [1,2,3,4,5,6]\
 Output: Node 4 from this list (Serialization: [4,5,6])\
 Explanation: Since the list has two middle nodes with values 3 and 4, we return the second one.
+### Day Nine: Backspace String Compare
+Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+#### Example:
+Input: S = "ab#c", T = "ad#c"\
+Output: true\
+Explanation: Both S and T become "ac".
+#### Solution complexity:
+Space: O(1)\
+Time: O(N).r
