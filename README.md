@@ -71,7 +71,7 @@ Explanation: Both S and T become "ac".
 #### Solution complexity:
 Space: O(1)\
 Time: O(N).
-### Day Ten: Mis Stack
+### Day Ten: Min Stack
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 #### Example:
 MinStack minStack = new MinStack();\
@@ -82,3 +82,40 @@ minStack.getMin();   --> Returns -3.\
 minStack.pop();\
 minStack.top();      --> Returns 0.\
 minStack.getMin();   --> Returns -2.
+### Day Eleven: Diameter of binary tree
+Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root. 
+### Day Twelve: Last Stone Weight
+We have a collection of stones, each stone has a positive integer weight.\
+Each turn, we choose the two heaviest stones and smash them together.  Suppose the stones have weights x and y with x <= y.  The result of this smash is:\
+- if x == y, both stones are totally destroyed;
+- if x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y-x.\
+At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)
+
+#### Example:
+Input: [2,7,4,1,8,1]\
+Output: 1\
+Explanation:\ 
+We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,\
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,\
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,\
+we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of last stone.
+### Day Thirteen: Contiguous Array
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+#### Example:
+Input: [0,1]\
+Output: 2\
+Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+### Day Fourteen: Perform String Shifts
+You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:
+- direction can be 0 (for left shift) or 1 (for right shift). 
+- amount is the amount by which string s is to be shifted.
+- A left shift by 1 means remove the first character of s and append it to the end.
+- Similarly, a right shift by 1 means remove the last character of s and add it to the beginning.
+Return the final string after all operations.
+
+#### Example:
+Input: s = "abc", shift = [[0,1],[1,2]]\
+Output: "cab"\
+Explanation: \
+[0,1] means shift to left by 1. "abc" -> "bca"\
+[1,2] means shift to right by 2. "bca" -> "cab"
